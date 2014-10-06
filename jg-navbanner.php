@@ -5,7 +5,7 @@
 	Author URI: http://groundwork.cc
 	Description: NavBanner is a two-tier navigation system for PageLines. Add a full width image/logo on top and your navigation will appear underneath.
 	PageLines: true
-    Version: 1.0
+    Version: 1.0.1
     Section: true
 	Class Name: gwNavBanner
 	Filter: component, dual-width
@@ -46,10 +46,6 @@ class gwNavBanner extends PageLinesSection {
 						'label'	=> __( 'Logo', 'groundwork' ),
 						'default'	=> $this->base_url.'/logo.png',
 						'has_alt'	=> true,
-						'opts'	=> array(
-							'center_logo'	=> 'Center: Logo | Right: Pop Menu | Left: Site Search',
-							'left_logo'		=> 'Left: Logo | Right: Standard Menu',
-						),
 					),
 					array(
 						'key'	=> 'menu',
